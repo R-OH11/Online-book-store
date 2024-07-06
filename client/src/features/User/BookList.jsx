@@ -8,14 +8,18 @@ import SearchBar from "../../ui/Searchbar";
 const BookList = ({ isAdmin }) => {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState("");
-  let searchValue = searchTerm;
   let category = "";
   const token = localStorage.getItem("token");
   const {
     data: Books,
     isLoading,
+    refetch,
     error,
   } = useBooksList(token, searchTerm, category);
+
+  useEffect(() => {
+    refetch();
+  }, []);
 
   const books = Books?.data?.docs;
   return (
