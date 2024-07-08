@@ -8,3 +8,6 @@ Here are the steps to run the code:-
 5) After installing the dependencies, run the cmd npm start to start the server.
 6) Moving on the client side, open another terminal, and move to the folder Online-book-store> client and run the cmd npm install and then npm run dev to start the application.
 7) Now, redirect to the mentioned port in the terminal.
+Admin credentials:-
+email:- admin@yopmail.com
+password:- Admin@123
