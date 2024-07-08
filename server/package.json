@@ -4,10 +4,10 @@
   "description": "bookstore machine test",
   "main": "index.js",
   "scripts": {
-      "dev:nd": "nodemon main.js",
+    "dev:nd": "nodemon main.js",
     "start": "node main.js"
   },
-  "author": "shobhit",
+  "author": "Rohit",
   "type": "module",
   "license": "ISC",
   "dependencies": {
